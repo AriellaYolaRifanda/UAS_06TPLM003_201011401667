@@ -66,7 +66,8 @@ class _WeatherPageState extends State<WeatherPage> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: NetworkImage('https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Free-Weather-Background.jpg'),
+            image: NetworkImage(
+                'https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Free-Weather-Background.jpg'),
             fit: BoxFit.cover,
           ),
           gradient: LinearGradient(
